@@ -1,0 +1,99 @@
+html, body {
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    background-color: burlywood;
+    padding: 20px;
+    justify-content: center;
+}
+.nav-item {
+    color: black;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* ex01 */
+.ex01-main {
+    display: flex;
+    justify-content: space-between;
+}
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    color: white;
+}
+.box2 {
+    margin-right: 10px;
+}
+.ex01-sub {
+    display: flex;
+}
+
+/* ex02 */
+.ex02-main {
+    display: flex;
+    flex-direction: column;
+}
+.ex02-box2 {
+    align-self: center;
+}
+.ex02-box3 {
+    align-self: flex-end;
+}
+/* ex03 */
+.ex03-main {
+    display: flex;
+    justify-content: center;
+}
+
+.ex03-big-box {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    color: white;
+    position: relative;
+}
+.ex03-sm-box {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    color: black;
+}
+.ex03-box2 {
+    position: absolute;
+    left: 50px;
+    top: 50px;
+}
+
+/* ex04 */
+.ex04-box2 {
+    background-color: aqua;
+    position: relative;
+    left: 50px;
+    top: -50px;
+}
+
+/* ex05 */
+.ex05-bg-box {
+    width: 500px;
+    height: 200px;
+    background-color: black;
+    color: white;
+    position: absolute;
+}
+.ex05-box {
+    background-color: aqua;
+}
+.bottom {
+    position: absolute;
+    bottom: 0;
+}
+
+.top {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
